@@ -1,3 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Wear Finance Manager_FinalProject_sec2</string>
+    <string name="app_name">Wearable Finance Manager</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="add_budget">Add Budget</string>
+    <string name="view_budget">View Budget</string>
+    <string name="expense_name">Expense Name</string>
+    <string name="expense_amount">Expense Amount</string>
+    <string name="budget_name">Budget Name</string>
+    <string name="budget_amount">Budget Amount</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="submit">Submit</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="remaining_budget">Remaining Budget</string>
+    <string name="amount_spent">Amount Spent</string>
+    <string name="budget_exceeded">Budget Exceeded!</string>
 </resources>
