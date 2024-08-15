@@ -14,13 +14,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+/**
+ * Adapter class for RecyclerView to display budget items.
+ * This class is responsible for binding budget data to views that are displayed
+ * within a RecyclerView, handling view creation and data binding.
+ */
+
 public class BudgetAdapter extends RecyclerView.Adapter<BudgetAdapter.BudgetViewHolder> {
+    // List holding budget data to be displayed.
 
     private List<Budget> budgets = new ArrayList<>(); // Initialize with an empty list
 
     public BudgetAdapter(List<Budget> budgets) {
         this.budgets = budgets;
     }
+     // Inflates the view for each budget item from XML when needed and returns a new ViewHolder.
 
     @NonNull
     @Override
@@ -49,6 +57,8 @@ public class BudgetAdapter extends RecyclerView.Adapter<BudgetAdapter.BudgetView
         this.budgets = newBudgets;
         notifyDataSetChanged(); // Notify RecyclerView that data has changed
     }
+
+    //   Constructs a new BudgetViewHolder, finding and storing view references.
 
     public static class BudgetViewHolder extends RecyclerView.ViewHolder {
         TextView budgetName, budgetLimit, budgetStartDate, budgetEndDate;
