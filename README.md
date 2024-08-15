@@ -77,6 +77,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## **Contact**
 
-Project Link: [https://github.com/your_username/Wearable-Finance-Manager](https://github.com/your_username/Wearable-Finance-Manager](https://github.com/RutujaMundhe15/Team1_Final_Group_Project_PROG879_Sec20)
+Project Link: (https://github.com/your_username/Wearable-Finance-Manager](https://github.com/RutujaMundhe15/Team1_Final_Group_Project_PROG879_Sec20)
 
 ---
